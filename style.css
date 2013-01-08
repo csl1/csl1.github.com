@@ -1,0 +1,69 @@
+@media screen {
+	/*
+	selector {
+		property:value;
+	}
+	*/
+		html{
+			background: url(lukeletter.jpg);
+			background-attachment: fixed;
+		}
+
+		body {
+			/*width: 800px;
+			margin: 40px auto; /*top-bottom; left-right ... top-right-bottom-left*/
+			font-family: 'New Rocker', cursive;
+			color: #444;
+			background-color: #fafaf1;
+			padding: 40px;
+			text-align: center;
+		}
+
+		/*html is the structure; css is the design; javascript is the behaviour*/
+
+		h1{
+			font-family: 'Elsie', cursive;
+			text-transform: uppercase;
+		}
+
+		ul{
+			list-style: none;
+			margin-left: 0;
+			padding-left: 0;
+
+		}
+
+		a:link, a:visited, a:active {
+			color: black;
+			font-style: italic;
+			text-decoration: none;
+			border-bottom: 1px dotted red;
+		}
+
+		a:hover, a:focus {
+			border-bottom: 2px solid red;
+		}
+}
+
+@media screen and (min-width: 480px) {
+/* tablet */
+}
+
+@media screen and (min-width: 768px) {
+/*small computer*/
+	body{
+		width: 700px;
+		margin: 20px auto;
+	}
+	li {
+		display: inline;
+	}
+
+}
+
+@media screen and (min-width:; 992px) {
+/*bigger computer screen */
+
+}
+
+/* it is useful to examine your design, and determine at what point the content begins to fall apart, and then make adjustments at that point in time.  This prevents pidgeon-holing into a certain width - devices are constantly changing.)
